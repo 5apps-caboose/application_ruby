@@ -27,7 +27,7 @@ depends "poise", "~> 2.0"
 depends "application", "~> 5.0"
 depends "poise-ruby", "~> 2.1"
 depends "poise-service", "~> 1.0"
-chef_version ">= 12.1", "< 14" if defined?(chef_version)
+chef_version ">= 12.1" if defined?(chef_version)
 supports "aix"
 supports "amazon"
 supports "arch"
